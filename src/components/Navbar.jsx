@@ -19,7 +19,7 @@ const Navbar = () => {
         <div className='flex items-center justify-between p-4 z-[100] w-full absolute'>
         {user?.email ? (
             <Link to='/home'>
-                <h1 className='text-red-600 text-4xl font-bold cursor-pointer'>
+                <h1 className='text-red-600 text-2xl md:text-4xl font-bold cursor-pointer'>
             NOTFLIX
             </h1>
             </Link>
