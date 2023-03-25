@@ -24,7 +24,7 @@ const Navbar = () => {
             </h1>
             </Link>
         ) :( <Link to='/'>
-            <h1 className='text-red-600 text-4xl font-bold cursor-pointer'>
+            <h1 className='text-red-600 text-2xl md:text-4xl font-bold cursor-pointer'>
             NOTFLIX
             </h1>
         </Link>)}
